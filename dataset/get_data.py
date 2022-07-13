@@ -54,3 +54,5 @@ if __name__ == '__main__':
     # download dataset
     fetchFileFromLink(train_link, args.save_dir, args.overwrite)
     fetchFileFromLink(test_link, args.save_dir, args.overwrite)
+
+    # python get_data.py -n mitmovie -d "./dataset_folder/"
